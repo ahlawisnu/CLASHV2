@@ -1,8 +1,4 @@
 payload:
-# NAME: Rule Gaming Mobilelegend
-# AUTHOR: Goodboy
-# TEEGRAM: https://t.me/AfthonPc
-# UPDATED: 2022-09-02
   - DOMAIN-SUFFIX,www.mobilelegends.com
   - DOMAIN,m.mobilelegends.com
   - DOMAIN,app.adjust.net.in

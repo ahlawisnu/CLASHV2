@@ -10,7 +10,7 @@ proxy-providers:
   Akun_MIX:
     type: http
     url: https://github.com/ahlawisnu/CLASHV2/raw/main/Akun_MIX.yaml
-    path: "./Akun_MIX.yaml"
+    path: "./proxy/Akun_MIX.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204

@@ -56,6 +56,16 @@ proxy-groups:
   - Multi-Akun
   url: http://www.gstatic.com/generate_204
   interval: '10'
+- name: 18+
+  type: select
+  disable-udp: false
+  proxies:
+  - DIRECT
+  - REJECT
+  - Url-Test
+  - Multi-Akun
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
 - name: Adblock
   type: select
   disable-udp: false
@@ -80,15 +90,6 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '10'
 - name: Url-Test
-  type: url-test
-  disable-udp: false
-  use:
-  - Akun_Indonesia
-  - Akun_MIX
-  url: http://www.gstatic.com/generate_204
-  interval: '10'
-  tolerance: '10'
-- name: 18+
   type: url-test
   disable-udp: false
   use:

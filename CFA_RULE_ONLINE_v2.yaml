@@ -59,6 +59,7 @@ proxy-groups:
   disable-udp: false
   proxies:
   - REJECT
+  - DIRECT
   - Url-Test
   - Multi-Akun
   - Pilih-Akun

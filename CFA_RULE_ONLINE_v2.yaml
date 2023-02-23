@@ -71,7 +71,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '10'
 - name: Traffic-Sg
-  type: select
+  type: fallback
   disable-udp: false
   use:
   - Akun_MIX

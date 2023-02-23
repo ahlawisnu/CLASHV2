@@ -1,8 +1,4 @@
 payload:
-# NAME: Rule Gaming Free FIre
-# AUTHOR: Goodboy
-# TEEGRAM: https://t.me/AfthonPc
-# UPDATED: 2022-09-02
   - DOMAIN-SUFFIX,garena.com
   - DOMAIN-SUFFIX,avatargarenanow-a.akamaihd.net
   - DOMAIN-SUFFIX,cdngarenanow-a.akamaihd.net

@@ -50,7 +50,8 @@ proxy-groups:
   disable-udp: false
   proxies:
   - DIRECT
-  - Traffic-Indo
+  - Url-Test
+  - Multi-Akun
   url: http://www.gstatic.com/generate_204
   interval: '10'
 - name: Adblock
@@ -69,7 +70,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '10'
 - name: Traffic-Sg
-  type: fallback
+  type: select
   disable-udp: false
   use:
   - Akun_MIX

@@ -88,6 +88,15 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '10'
   tolerance: '10'
+- name: 18+
+  type: url-test
+  disable-udp: false
+  use:
+  - Akun_Indonesia
+  - Akun_MIX
+  url: http://www.gstatic.com/generate_204
+  interval: '10'
+  tolerance: '10'
 - name: Multi-Akun
   type: load-balance
   strategy: round-robin
@@ -140,7 +149,7 @@ dns:
 rules:
 - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
 - RULE-SET,rule_direct,DIRECT
-- RULE-SET,rule_reject,REJECT
+- RULE-SET,rule_reject,18+
 - RULE-SET,rule_browsing,Universal
 - RULE-SET,rule_streaming,Stream & Sosmed
 - RULE-SET,rule_sosmed,Stream & Sosmed

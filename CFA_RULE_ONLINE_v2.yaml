@@ -20,6 +20,7 @@ proxy-groups:
   type: select
   disable-udp: false
   proxies:
+  - REJECT
   - DIRECT
   - Url-Test
   - Multi-Akun

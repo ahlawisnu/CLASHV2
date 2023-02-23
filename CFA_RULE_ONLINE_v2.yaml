@@ -1,13 +1,15 @@
 proxy-providers:
   Akun_Indonesia:
-    type: file
+    type: http
+    url: https://github.com/ahlawisnu/CLASHV2/raw/main/Akun_Indonesia.yaml
     path: "./Akun_Indonesia.yaml"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 30
   Akun_MIX:
-    type: file
+    type: http
+    url: https://github.com/ahlawisnu/CLASHV2/raw/main/Akun_MIX.yaml
     path: "./Akun_MIX.yaml"
     health-check:
       enable: true
@@ -150,72 +152,72 @@ rule-providers:
   rule_direct:
     type: http
     behavior: classical
-    path: "./GB_direct.yaml"
+    path: "./rule/GB_direct.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_direct.yaml
     interval: 86400
   rule_reject:
     type: http
     behavior: classical
-    path: "./GB_reject.yaml"
+    path: "./rule/GB_reject.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_reject.yaml
     interval: 86400
   rule_browsing:
     type: http
     behavior: classical
-    path: "./GB_browsing.yaml"
+    path: "./rule/GB_browsing.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_browsing.yaml
     interval: 86400
   rule_streaming:
     type: http
     behavior: classical
-    path: "./GB_streaming.yaml"
+    path: "./rule/GB_streaming.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_streaming.yaml
     interval: 86400
   rule_sosmed:
     type: http
     behavior: classical
-    path: "./GB_sosmed.yaml"
+    path: "./rule/GB_sosmed.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_sosmed.yaml
     interval: 86400
   rule_TrafficIndo:
     type: http
     behavior: classical
-    path: "./GB_sosmed.yaml"
+    path: "./rule/GB_sosmed.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_TrafficIndo.yaml
     interval: 86400
   rule_ML:
     type: http
     behavior: classical
-    path: "./GB_ML.yaml"
+    path: "./rule/GB_ML.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_ML.yaml
     interval: 86400
   rule_PUBG:
     type: http
     behavior: classical
-    path: "./GB_PUBG.yaml"
+    path: "./rule/GB_PUBG.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_PUBG.yaml
     interval: 86400
   rule_FF:
     type: http
     behavior: classical
-    path: "./GB_FF.yaml"
+    path: "./rule/GB_FF.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_FF.yaml
     interval: 86400
   rule_gameumum:
     type: http
     behavior: classical
-    path: "./GB_gameumum.yaml"
+    path: "./rule/GB_gameumum.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_gameumum.yaml
     interval: 86400
   rule_whatsapp:
     type: http
     behavior: classical
-    path: "./GB_whatsapp.yaml"
+    path: "./rule/GB_whatsapp.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_whatsapp.yaml
     interval: 86400
   rule_adblock:
     type: http
     behavior: classical
-    path: "./GB_adblock.yaml"
+    path: "./rule/GB_adblock.yaml"
     url: https://raw.githubusercontent.com/GboyGud/clash_for_android/main/rule_provider/GB_adblock.yaml
     interval: 86400

@@ -1,7 +1,3 @@
-# NAME: Rule Gaming PUBG MOBILE
-# AUTHOR: Goodboy
-# TEEGRAM: https://t.me/AfthonPc
-# UPDATED: 2022-07-31
 payload:
   - DOMAIN-KEYWORD,pubg
   - DOMAIN-KEYWORD,pubgmobile
